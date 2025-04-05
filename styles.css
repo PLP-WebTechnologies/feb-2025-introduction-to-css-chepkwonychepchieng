@@ -1,0 +1,85 @@
+
+:root{
+    --background: bisque ;
+    --color: black;
+    --first-color: rgb(162, 216, 15);
+    --second-color:blue;
+
+    
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color:var(--background);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    color: var(--color);
+    padding: 20px;
+    text-align: center;
+    display : block;
+ 
+}
+.navbar a:hover{
+    color: var(--first-color);
+    
+}
+.navbar li{
+    float: left;
+}
+
+.header-icon{
+    float: right;
+}
+h1{
+    background-color: var(--first-color);
+    text-align: center;
+    font-size: 25px;
+
+
+}
+.img{
+    width: 500px;
+    height: 500px;
+    /* display: block; */
+    padding: 20px;
+}
+/* section about */
+.about { 
+    padding: 15px;
+
+
+    .img{
+        width: 500px;
+        height: 600px;
+    }
+
+}
+/* PRODUCTS */
+.product{
+    padding: 15px;
+
+  
+}
+.card img{
+    width: 800px;
+    height: 500px;;
+    margin: 10px;
+    padding: 10px;
+    /* border-radius: 10px; */
+}
+/* contact */
+.contact-section{
+    padding: 15px;
+    color: var(--color);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.form input,textarea{
+    border:2px solid var(--second-color)
+    
+}
